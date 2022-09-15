@@ -148,9 +148,9 @@ sleep (2)
 ######################################
 
 
-ctv=input ('\033[1;92m》Enter a new ctv :\033[1;96m ')
+ctv1=input ('\033[1;92m》Enter a new ctv :\033[1;96m ')
 print ()
-htv=input ('\033[1;92m》Enter a new htv : \033[1;96m')
+htv1=input ('\033[1;92m》Enter a new htv : \033[1;96m')
 print ()
 
 
