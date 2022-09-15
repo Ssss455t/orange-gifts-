@@ -9,7 +9,7 @@ print (link)
 print ()
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
 if password !="Abdullah4550":
-	print ('error password !')
+	print ('\033[1;91merror password !')
 	print ('')
 	exit()
 else:
@@ -148,9 +148,9 @@ sleep (2)
 ######################################
 
 
-ctv=input ('\033[1;92m》Enter ctv :\033[1;96m ')
+ctv=input ('\033[1;92m》Enter a new ctv :\033[1;96m ')
 print ()
-htv=input ('\033[1;92m》Enter htv : \033[1;96m')
+htv=input ('\033[1;92m》Enter a new htv : \033[1;96m')
 print ()
 
 
