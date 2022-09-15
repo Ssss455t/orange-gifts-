@@ -181,7 +181,6 @@ headers3={
 
 if True :
     r=requests.post(url3,headers=headers3,json=data3)
-    print (r.text)
     print ()
     
     if (r.json()["ErrorCode"])==0:
