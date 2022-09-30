@@ -4,11 +4,11 @@ from time import sleep
 import sys,os, time, json
 print ('\033[1;92mclick on this link to get password👇')
 print ()
-link="\033[1;93mhttps://bestcash2020.com/6xJAL6P"
+link="\033[1;93mhttps://bestcash2020.com/LajkVVg"
 print (link)
 print ()
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
-if password !="Abdullah3444":
+if password !="Abdullah3001":
 	print ('\033[1;91merror password !')
 	print ('')
 	exit()
