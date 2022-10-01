@@ -140,9 +140,6 @@ elif (r2["OfferId"])=="10" or "3" or "2":
     print ('\033[1;96mCongratulation, You have 100 mg') 
 
 
-print ('='*60)
-sleep (2)
-
 
 
 ######################################
@@ -184,11 +181,7 @@ if True :
     r=requests.post(url3,headers=headers3,json=data3)
     print ()
     if (r.json()["ErrorCode"])==0:
-        print ('\033[1;96mDone Add Megabytes')
-    elif(r.json()["ErrorCode"])==13:
-        print ('\033[1;91mctv & htv unexpired')
-        print ('be fast')
-        exit()
+        print ('\033[1;96mDone Added Megabytes')
     elif (r.json()["ErrorCode"])==16:
         print ('\033[1;91mError ctv or htv')
         exit()
