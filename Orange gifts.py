@@ -1,14 +1,15 @@
 import requests,json
+import requests as rq 
 from bs4 import BeautifulSoup as BS
 from time import sleep
 import sys,os, time, json
 print ('\033[1;92mclick on this link to get password👇')
 print ()
-link="\033[1;93mhttps://bestcash2020.com/LajkVVg"
+link="\033[1;93mhttps://bestcash2020.com/zVI749xS"
 print (link)
 print ()
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
-if password !="Abdullah3001":
+if password !="Abdullah4550":
 	print ('\033[1;91merror password !')
 	print ('')
 	exit()
@@ -86,10 +87,9 @@ num=input ('\033[1;92m》Enter Number : \033[1;96m')
 print ()
 pas=input ('\033[1;92m》Enter password : \033[1;96m')
 print ()
-ctv=input ('\033[1;92m》Enter ctv :\033[1;96m ')
-print ()
-htv=input ('\033[1;92m》Enter htv : \033[1;96m')
-print ()
+c=rq.get ('https://excretive-oaks.000webhostapp.com/AbdullahSalah_Ctv&Htv.php').json()	
+ctv=(c["ctv"])
+htv=(c["htv"])
 
 
 url2="https://backend.orange.eg/api/WheelOfFortune/CheckEligibility"
@@ -148,10 +148,11 @@ sleep (2)
 ######################################
 
 
-ctv1=input ('\033[1;92m》Enter a new ctv :\033[1;96m ')
-print ()
-htv1=input ('\033[1;92m》Enter a new htv : \033[1;96m')
-print ()
+c=rq.get ('https://excretive-oaks.000webhostapp.com/AbdullahSalah_Ctv&Htv.php').json()
+	
+ctv1=(c["ctv"])
+htv1=(c["htv"])
+
 
 
 url3="https://backend.orange.eg/api/WheelOfFortune/Offerfulfillment"
