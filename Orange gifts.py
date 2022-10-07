@@ -5,11 +5,11 @@ from time import sleep
 import sys,os, time, json
 print ('\033[1;92mclick on this link to get password👇')
 print ()
-link="\033[1;93mhttps://bestcash2020.com/zVI749xS"
+link="\033[1;93mhttps://bestcash2020.com/kvE8"
 print (link)
 print ()
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
-if password !="Abdullah4550":
+if password !="Abdullah3456":
 	print ('\033[1;91merror password !')
 	print ('')
 	exit()
@@ -196,13 +196,6 @@ if (r1["ErrorCode"])==0:
 elif (r1["ErrorCode"])==9:
     print ('\033[1;91mError Number Or Password')
     exit()
-elif (r1["ErrorCode"])==219:
-    print ('\033[1;91mYou Took Them Before')
-    exit()
-elif (r1["ErrorCode"])==197:
-    print ('\033[1;91mYou Took Them Before')
-elif (r1["ErrorCode"])==228:
-    print ('\033[1;91mYou Took Them Before')
 elif(r1["ErrorCode"])==10:
     print ("\033[1;91mSomething Wrong, Try again")
 else :
